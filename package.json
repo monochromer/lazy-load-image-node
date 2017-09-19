@@ -1,0 +1,17 @@
+{
+  "name": "lazy-load-image-node",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.4",
+    "sharp": "^0.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

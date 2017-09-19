@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+    max-width: 720px;
+    padding: 50px;
+}
+
+.spacer {
+    height: 120vh;
+}
+
+img {
+    vertical-align: top;
+    width: 100%;
+}
