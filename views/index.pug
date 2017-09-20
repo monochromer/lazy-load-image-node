@@ -1,10 +1,12 @@
 extends /views/layouts/layout
 
 block content
-        for file in files
-            sc-img(src=file.filePath, style={
-                '--w': file.originalWidth,
-                '--h': file.originalHeight,
-                'background-image': `url(${file.base64})`
-            })
-            .spacer
+    h1 Lazy load images with web-components and intersection-observer
+
+    for file in files
+        sc-img(src=file.filePath, style={
+            '--w': file.originalWidth,
+            '--h': file.originalHeight,
+            'background-image': `url(${file.base64})`
+        })
+        .spacer
