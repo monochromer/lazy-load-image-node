@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
 const express = require('express');
-const gm = require('gm').subClass({ imageMagick: true });
+// const gm = require('gm').subClass({ imageMagick: true });
 
 const imageService = require('./services/image-service');
 const readFile = promisify(fs.readFile);
