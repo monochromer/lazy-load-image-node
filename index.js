@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
     imageService
         .getAll()
         .then(files => res.render('index', { files }))
-        .catch(console.error.bind(error))
+        .catch(console.error.bind(console))
 });
 
 
