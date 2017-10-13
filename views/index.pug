@@ -7,6 +7,6 @@ block content
         sc-img(src=file.filePath, style={
             '--w': file.originalWidth,
             '--h': file.originalHeight,
-            'background-image': `url(${file.base64})`
+            'background-image': `url(data:image/svg+xml;base64,${file.sqip.svg_base64encoded})`
         })
         .spacer

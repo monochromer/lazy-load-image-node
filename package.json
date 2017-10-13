@@ -13,7 +13,8 @@
   "dependencies": {
     "express": "^4.15.4",
     "pug": "^2.0.0-rc.4",
-    "sharp": "^0.18.4"
+    "sharp": "^0.18.4",
+    "sqip": "^0.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
